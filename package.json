@@ -1,0 +1,37 @@
+{
+  "name": "asch-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1300/asch-template.git"
+  },
+  "keywords": [
+    "asch",
+    "aschplatform",
+    "sidechain",
+    "blockchain"
+  ],
+  "author": "a1300",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a1300/asch-template/issues"
+  },
+  "homepage": "https://github.com/a1300/asch-template#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "inversify": "^4.13.0",
+    "inversify-vanillajs-helpers": "^2.0.0",
+    "moment": "^2.22.2",
+    "reflect-metadata": "^0.1.12",
+    "winston": "^3.0.0",
+    "winston-daily-rotate-file": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint-config-asch-base": "https://github.com/AschPlatform/eslint-config-asch-base/tarball/master"
+  }
+}
