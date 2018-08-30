@@ -20,7 +20,7 @@ helpers.annotate(install, [DEPENDENCIES.LOGGER])
 
 const setup = () => {
   // bindings
-  container.bind(DEPENDENCIES.INIT).to(int)
+  container.bind(DEPENDENCIES.INIT).to(init)
   container.bind(DEPENDENCIES.INSTALL).to(install)
 
   // constants or third party libraries

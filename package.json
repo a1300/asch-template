@@ -24,6 +24,7 @@
   "homepage": "https://github.com/a1300/asch-template#readme",
   "dependencies": {
     "chalk": "^2.4.1",
+    "commander": "^2.17.1",
     "inversify": "^4.13.0",
     "inversify-vanillajs-helpers": "^2.0.0",
     "moment": "^2.22.2",
